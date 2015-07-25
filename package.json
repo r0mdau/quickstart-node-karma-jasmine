@@ -1,0 +1,35 @@
+{
+  "name": "quickstart-node-karma-jasmine",
+  "version": "1.0.0",
+  "description": "Qucikstart project for testing with node.js",
+  "main": "Personne.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0mdau/quickstart-node-karma-jasmine.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Karma",
+    "Jasmine",
+    "PhantomJS"
+  ],
+  "author": "Romain Dauby",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/r0mdau/quickstart-node-karma-jasmine/issues"
+  },
+  "homepage": "https://github.com/r0mdau/quickstart-node-karma-jasmine#readme",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
+  }
+}
